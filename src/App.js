@@ -1,12 +1,11 @@
 import React from 'react';
-import Nav from './component/Nav/Nav'
-import Search from './component/Search/Search'
+import Main from './Pages/Main'
+
 
 function App() {
   return (
      <>
-        < Nav/>
-        <Search/>
+        < Main/>
      </>
   );
 }

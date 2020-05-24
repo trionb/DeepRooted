@@ -26,14 +26,14 @@
     font-size: 15px;
     cursor: pointer;
     transition: 0.4s linear;
-    background-color: lightgray;
+    background-color: white;
     border: 1px solid black;
     border-width: 1px;
     padding-right: 21px;    
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
 } 
 ::placeholder {
-    background-color:lightgray;
+    background-color:white;
     color: black ;
     font-family: 'Times New Roman', Times, serif;
 }
