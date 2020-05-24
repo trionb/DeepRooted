@@ -1,25 +1,99 @@
-.menuNav{
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.menuNav {
     width: 100%;
-    height: 10vh;
+    /* height: 5vh; */
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     border: 0.5px solid black;
     overflow: hidden;
-
+    position: fixed;
+    top: 53px;
 }
 .menuList{
    list-style-type: none;
-   display:inline-flex;
+   display:flex;
    flex-direction: row;
-   flex-wrap: wrap-reverse;
-   align-items: center;
-   position: fixed;
-   top: 101px;
+   justify-content: space-around;
+   margin: 0.5em 10em 0em 10em;
+   top: 35px;
 }
-.menu-li{
-    display: inline;
-    margin: 0 15px;
+li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    display:flex;
+    align-items: center;
+
 }
+
+.burger div{
+    width:25px;
+    height:2px;
+    background-color: #000000;
+    margin: 5px;
+  
+}
+.burger{
+    display: none;
+    cursor: pointer;
+
+}
+.flex1{
+    order:1;
+}
+.flex2{
+    order:3;
+}
+.flex3{
+    order:3;
+}
+.flex4{
+    order:4;
+}
+@media screen and (max-width:770px){
+    body{
+        overflow-x: hidden;
+
+    }
+    .menuNav{
+        position: absolute;
+        left: 0px;
+        height: 100%;
+        top: 7.4vh;        
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:25%;
+        overflow: hidden;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in;
+    } 
+    ul.menuList{
+        padding: 0;
+        margin: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menuList{
+        opacity:0;
+
+    }
+    .burger{
+       display:block;
+       cursor: pointer;
+       bottom: 100px;
+       position: fixed;
+       top: 15px;
+       left: 2px;
+
+    }
+    /* .nav-active{
+        transform: translateX(0%);
+    } */
+} 
+ 

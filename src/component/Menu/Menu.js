@@ -1,42 +1,46 @@
 import React, { Component } from 'react'
 import '../Menu/Menu.css'
-export class Menu extends Component {
+
+ class Menu extends Component {
     render() {
         return (
             <div>
                 <nav className="menuNav">
                     <ul className="menuList">
-                        <li className="menu-li">
+                        <li>
                             <a 
                                 href="#New" 
-                                className="newArrivals">
+                                className="flex1">
                                 New
                             </a>
                         </li>
-                        <li className="menu-li">
+                        <li>
                             <a 
                                 href="#Men" 
-                                className="Men">
+                                className="flex2">
                                 Men
                             </a>
                         </li>
-                        <li className="menu-li">
+                        <li>
                             <a 
                                 href="#Women" 
-                                className="Women">
+                                className="flex3">
                                 Women
                             </a>
                         </li>
-                        <li className="menu-li">
+                        <li>
                             <a 
                                 href="#Accesories" 
-                                className="Accecories">
+                                className="flex4">
                                 Accessories
                             </a>
                         </li>
-
                     </ul>
-
+                    <div className="burger">
+                         <div className="line1"></div>  
+                         <div className="line2"></div>  
+                         <div className="line3"></div>  
+                    </div>  
                 </nav>
                 
             </div>
