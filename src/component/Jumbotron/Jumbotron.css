@@ -1,0 +1,19 @@
+
+.jumbotron-fluid {
+    border-radius: 0;
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    height: 50%;
+    top: 100px;
+    padding: 0;
+}
+.display-4{
+    position: absolute;
+    top: 60px;
+    text-align: center;
+}
+.lead{
+    position: absolute;
+    top: 30px;
+}
