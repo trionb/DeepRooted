@@ -5,12 +5,13 @@ class Nav extends Component {
     render() {
         return (
                  <header>
+                        <p className="logo" >
                             <img 
-                                className="logo" 
                                 src="https://f1.pngfuel.com/png/777/122/324/tree-trunk-drawing-royaltyfree-stock-photography-root-cartoon-branch-plant-twig-png-clip-art.png" 
                                 alt="roots"
                             />
-                            <nav>
+                            </p>
+                            <nav className>
                                 <ul className="nav-links">
                                         <li>
                                             <a 

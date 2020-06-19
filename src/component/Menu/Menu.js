@@ -4,7 +4,6 @@ import '../Menu/Menu.css'
  class Menu extends Component {
     render() {
         return (
-            <div>
                 <nav className="menuNav">
                     <ul className="menuList">
                         <li>
@@ -42,8 +41,6 @@ import '../Menu/Menu.css'
                          <div className="line3"></div>  
                     </div>  
                 </nav>
-                
-            </div>
         )
     }
 }

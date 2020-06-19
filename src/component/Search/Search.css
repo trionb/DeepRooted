@@ -1,11 +1,14 @@
-
+body{
+    display: block;
+}
 .searchbox{ 
     position: relative;
-    top: 17px;
-    left: 80px; 
-    display: block;
+    bottom: 35px;
+    left: 20px;
+    width: 26%;
     max-width: 33px;
-    transition: 0.4s linear;
+    transition: 1s linear;
+    /* transition: 0.4s linear; */
     overflow: hidden;
 }
 .searchbox_input{
@@ -26,6 +29,7 @@
     padding-right: 21px;    
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
 } 
+
 ::placeholder {
     background-color:white;
     color: black ;
@@ -39,6 +43,7 @@
     width: 15px;
     height: 15px;
     pointer-events: none; 
+    margin: 0;
      
 }
 path{
@@ -47,8 +52,8 @@ path{
 }  
 
 :focus-within{
-    max-width: 300px;
-}
+    max-width: 100%;
+} 
 /* #searchbox_input{
    color: #000000;
 } */

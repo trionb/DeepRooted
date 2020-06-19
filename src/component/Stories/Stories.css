@@ -1,37 +1,25 @@
-/* .card{
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    height: 200px;
-    display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-}
- */
+
  .card {
-    margin: 0;
-    padding: 0;
-     width: 50%;
-    /* height: 400px;  */
+    /* margin: 0;
+    padding: 0; */
+    width: 30%;
     top: 490px;
-    left: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-width: 0;
-    word-wrap: break-word;
+    /* left: 300px; */
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
 }
 .card-body{
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    justify-content: center;
 }
 .card-img-top{
     height: 400px;
     opacity: 70%;
+
 }
 .btn-outline-dark {
     border-color: #343a40;
