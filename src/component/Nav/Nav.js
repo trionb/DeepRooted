@@ -1,37 +1,36 @@
 import React, { Component } from 'react'
+import Search from '../Search/Search'
+import { Link } from 'react-router-dom'
 import '../Nav/Nav.css'
 
 class Nav extends Component {
     render() {
         return (
                  <header>
-                        <p className="logo" >
-                            <img 
+                         <Search />
+                         <Link to='/'>
+                            <img className="logo"
                                 src="https://f1.pngfuel.com/png/777/122/324/tree-trunk-drawing-royaltyfree-stock-photography-root-cartoon-branch-plant-twig-png-clip-art.png" 
                                 alt="roots"
-                            />
-                            </p>
+                            />     
+                         </Link>
                             <nav className>
                                 <ul className="nav-links">
+                                    <Link to='/account'>
                                         <li>
-                                            <a 
-                                                href="#Account" 
-                                                className="account">
-                                                Account
-                                            </a>
+                                             Account
                                         </li>
+                                    </Link>
+                                    <Link to='/cart'>
                                         <li>
-                                            <a 
-                                                href="#Cart" className="cart">
-                                                Cart
-                                            </a>
+                                             Cart
                                         </li>
+                                    </Link>
+                                    <Link to='/wishlist'>
                                         <li>
-                                            <a 
-                                                href="#Wishlist" className="wishlist">
-                                                Wishlist
-                                            </a>
+                                             WishList
                                         </li>
+                                    </Link>
                                 </ul>
                             </nav>
                      </header>

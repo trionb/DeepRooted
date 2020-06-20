@@ -1,17 +1,19 @@
 .container{
     display: flex;
     justify-content: center;
+
 }
 .jumbotron-fluid {
     border-radius: 0;
     position: absolute;
     margin:0;
-    width: 85%;
-    height: 40%;
+    width: 95%;
+    height: 50%;
     top: 130px;
     padding: 0;
     display: inline-flex;
     justify-content: center;
+
 }
 .display-4{
     position: absolute;
