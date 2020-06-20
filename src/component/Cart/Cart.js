@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Cart.css'
 
 class Cart extends Component {
     render() {
@@ -10,4 +11,4 @@ class Cart extends Component {
     }
 }
 
-export default Cart
+export default Cart;

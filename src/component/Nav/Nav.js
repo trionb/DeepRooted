@@ -28,6 +28,7 @@ class Nav extends Component {
                                     </Link>
                                     <Link to='/wishlist'>
                                         <li>
+
                                              WishList
                                         </li>
                                     </Link>

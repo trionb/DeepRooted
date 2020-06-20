@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import Nav from '../component/Nav/Nav'
 import Search from "./Search/Search"
 import Menu from "./Menu/Menu"
 import Jumbotron from "./Jumbotron/Jumbotron"
@@ -9,7 +8,6 @@ export class Main extends Component {
     render() {
         return (
             <div>
-                {/* <Nav /> */}
                 <Search />
                 <Menu />
                 <Jumbotron />
