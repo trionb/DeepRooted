@@ -12,32 +12,32 @@ class Women extends Component {
                         <li className="men-card">
                             <img className="productImage" src="https://cdn.fashiola.com/L472666235/halogen-womens-halogen-x-atlantic-pacific-stripe-blazer.jpg" alt="men clothng" />
                             <h5 className="productTitle">Plaid Jacket</h5>
-                            <p>$150.00</p>
+                            <p className="price">$150.00</p>
                         </li>
                         <li className="men-card">
                             <img className="productImage" src="https://cdn.fashiola.com/L472666235/halogen-womens-halogen-x-atlantic-pacific-stripe-blazer.jpg" alt="men clothng" />
                             <h5 className="productTitle">Plaid Jacket</h5>
-                            <p>$150.00</p>
+                            <p className="price">$150.00</p>
                         </li>
                         <li className="men-card">
                             <img className="productImage" src="https://cdn.fashiola.com/L472666235/halogen-womens-halogen-x-atlantic-pacific-stripe-blazer.jpg" alt="men clothng" />
                             <h5 className="productTitle">Plaid Jacket</h5>
-                            <p>$150.00</p>
+                            <p className="price">$150.00</p>
                         </li>
                         <li className="men-card">
                             <img className="productImage" src="https://cdn.fashiola.com/L472666235/halogen-womens-halogen-x-atlantic-pacific-stripe-blazer.jpg" alt="men clothng" />
                             <h5 className="productTitle">Plaid Jacket</h5>
-                            <p>$150.00</p>
+                            <p className="price">$150.00</p>
                         </li>
                         <li className="men-card">
                             <img className="productImage" src="https://cdn.fashiola.com/L472666235/halogen-womens-halogen-x-atlantic-pacific-stripe-blazer.jpg" alt="men clothng" />
                             <h5 className="productTitle">Plaid Jacket</h5>
-                            <p>$150.00</p>
+                            <p className="price">$150.00</p>
                         </li>
                         <li className="men-card">
                             <img className="productImage" src="https://cdn.fashiola.com/L472666235/halogen-womens-halogen-x-atlantic-pacific-stripe-blazer.jpg" alt="men clothng" />
                             <h5 className="productTitle">Plaid Jacket</h5>
-                            <p>$150.00</p>
+                            <p className="price">$150.00</p>
                         </li>
                     </ul>        
                 </div>

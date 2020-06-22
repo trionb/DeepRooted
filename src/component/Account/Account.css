@@ -44,6 +44,7 @@ p{
     margin: 0;
     padding:0;
 }
+
 input{
     border-style: hidden hidden solid hidden;
     border-width: 0.2px;
@@ -51,11 +52,12 @@ input{
     opacity: 50%;
 
 }
+
 .button-btn{
   margin: 0;
   position: absolute;
   width: 30%;
-  top: 76%;
+  top: 79%;
   left: 43%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);

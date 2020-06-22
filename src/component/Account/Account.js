@@ -9,19 +9,19 @@ class Account extends Component {
                 <form className="LoginInfo" method="post" action="">
                     <h1>Account Info</h1>
                     <div className="formInfo">
-                    <br />
-                    <br />
-                       <p>Enter Your Email</p>
-                       <input type='text' placeholder="Email" required/>
-                       <br />
-                       <br />
-                       <p>Enter Your Password</p>
-                       <input type='password' placeholder="Password" required/>
-                      </div>
-                      <div>
-                        <label className="rememberMe" for="rememberMe">
-                            <input type='checkbox'/> Remember Me
-                       </label>
+                      <br />
+                      <br />
+                      <p className="email">Enter Your Email</p>
+                      <input type='text' placeholder="Email" required/>
+                      <br />
+                      <br />
+                      <p className="password">Enter Your Password</p>
+                      <input type='password' placeholder="Password" required/>
+                    </div>
+                    <div>
+                      <label className="rememberMe" for="rememberMe">
+                          <input type='checkbox'/> Remember Me
+                    </label>
                     </div>
                     <br />
                       <Link to='/passwordrenew'>

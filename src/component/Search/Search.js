@@ -6,10 +6,10 @@ import '../Search/Search.css'
         return (
                 <div className="searchbox">
                       <input 
+                            className="searchbox_input"
                             type="text" 
                             placeholder="Search..."
                             id="searchbox_input"
-                            className="searchbox_input"
                         />
                        <svg 
                             className="searchbox_icon" 
