@@ -9,7 +9,7 @@ header{
     border:0.5px solid black;
     height: 54px;
     background-color: white;
-    /* z-index:1; */
+    z-index:1;
 
 } 
 ul{
@@ -33,7 +33,7 @@ li {
     letter-spacing: 3px;
 }
 
-a{
+a{ 
     color: black;
 
 }

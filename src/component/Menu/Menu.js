@@ -1,39 +1,32 @@
 import React, { Component } from 'react'
 import '../Menu/Menu.css'
+import { Link } from 'react-router-dom'
 
  class Menu extends Component {
     render() {
         return (
                 <nav className="menuNav">
                     <ul className="menuList">
-                        <li>
-                            <a 
-                                href="#New" 
-                                className="flex1">
+                    <Link to='/new'>
+                        <li className="flex1">
                                 New
-                            </a>
                         </li>
-                        <li>
-                            <a 
-                                href="#Men" 
-                                className="flex2">
+                     </Link>
+                     <Link to='/men'>
+                        <li className="flex2">
                                 Men
-                            </a>
                         </li>
-                        <li>
-                            <a 
-                                href="#Women" 
-                                className="flex3">
+                     </Link>
+                     <Link to='/Women'>
+                        <li className="flex3">
                                 Women
-                            </a>
                         </li>
-                        <li>
-                            <a 
-                                href="#Accesories" 
-                                className="flex4">
-                                Accessories
-                            </a>
+                     </Link>
+                     <Link to='/accesories'>
+                        <li className="flex4">
+                                Accesories
                         </li>
+                     </Link>
                     </ul>
                     <div className="burger">
                          <div className="line1"></div>  
